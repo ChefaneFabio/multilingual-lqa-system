@@ -309,7 +309,7 @@ jobs:
         cat test_report.md
     
     - name: 📤 Upload Test Artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: macos-lqa-test-report-${{ github.run_number }}
         path: |
